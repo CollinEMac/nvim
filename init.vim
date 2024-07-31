@@ -51,7 +51,9 @@ set mouse=a
 set ignorecase
 set smartcase
 
+" show spaces
 set list
+set listchars=space:·
 
 set noshowmode
 
