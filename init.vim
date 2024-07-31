@@ -59,6 +59,8 @@ set listchars=space:·
 set cursorcolumn
 set cursorline
 
+set colorcolumn=80
+
 set noshowmode
 
 let g:gitgutter_sign_solumn_always=1
