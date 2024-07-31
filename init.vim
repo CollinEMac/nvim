@@ -55,6 +55,10 @@ set smartcase
 set list
 set listchars=space:·
 
+" show indent lines
+set cursorcolumn
+set cursorline
+
 set noshowmode
 
 let g:gitgutter_sign_solumn_always=1
