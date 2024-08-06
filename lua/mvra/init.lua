@@ -4,6 +4,7 @@ require('mvra/telescope')
 require('gitsigns').setup{
     current_line_blame=true
 }
+require'lspconfig'.pyright.setup{}
 
 vim.keymap.set('n', '<leader>p', require('telescope.builtin').find_files, { desc = 'Search files (like CTRL+P)' })
 vim.keymap.set('n', '<leader>f', require('telescope.builtin').live_grep , { desc = 'Live grep (like CTRL+SHIFT+F)' })
