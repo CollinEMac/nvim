@@ -68,6 +68,7 @@ let g:gitgutter_sign_solumn_always=1
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'shaunsingh/solarized.nvim'
+Plug 'shaunsingh/nord.nvim'
 
 " Telescope requires plenary to function
 Plug 'nvim-lua/plenary.nvim'
@@ -95,7 +96,12 @@ let g:minimap_auto_start_win_enter = 1
 
 call plug#end()
 
-colorscheme solarized
-set background=light
+colorscheme nord
+set background=dark
+
+set clipboard^=unnamed,unnamedplus
+
+set title
+set titlestring=%F
 
 lua require('mvra')
