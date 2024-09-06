@@ -89,6 +89,10 @@ Plug 'tpope/vim-fugitive'
 " minimap
 Plug 'wfxr/minimap.vim'
 
+" Elixir language
+Plug 'elixir-lang/vim-elixir'
+Plug 'thinca/vim-ref'
+Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
 " minimap config
 let g:minimap_width = 10
 let g:minimap_auto_start = 1
