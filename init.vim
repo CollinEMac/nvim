@@ -93,6 +93,10 @@ Plug 'wfxr/minimap.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'thinca/vim-ref'
 Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
+
+" For code commenting keybindings
+Plug 'numToStr/Comment.nvim'
+
 " minimap config
 let g:minimap_width = 10
 let g:minimap_auto_start = 1
@@ -107,5 +111,8 @@ set clipboard^=unnamed,unnamedplus
 
 set title
 set titlestring=%F
+
+" For Comment.nvim
+lua require('Comment').setup()
 
 lua require('mvra')
