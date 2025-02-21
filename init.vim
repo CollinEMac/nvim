@@ -97,6 +97,9 @@ Plug 'awetzel/elixir.nvim', { 'do': 'yes \| ./install.sh' }
 " For code commenting keybindings
 Plug 'numToStr/Comment.nvim'
 
+" lsp config
+Plug 'neovim/nvim-lspconfig'
+
 " minimap config
 let g:minimap_width = 10
 let g:minimap_auto_start = 1
