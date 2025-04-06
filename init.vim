@@ -100,6 +100,9 @@ Plug 'numToStr/Comment.nvim'
 " lsp config
 Plug 'neovim/nvim-lspconfig'
 
+" TreeSitter
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+
 " minimap config
 let g:minimap_width = 10
 let g:minimap_auto_start = 1
